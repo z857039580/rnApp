@@ -40,9 +40,9 @@ const BottomTabNavigator = createBottomTabNavigator({
             tabBarLabel: '首页',
             tabBarIcon: ({focused, tintColor}) => {
                 if(focused){
-                    return <Image source={require('./images/icon_tabnav.png')} />
+                    return <Image source={require('./static/images/icon_tabnav.png')} />
                 }else{
-                    return <Image source={require('./images/tabnavB.png')} />
+                    return <Image source={require('./static/images/tabnavB.png')} />
                 }
             }
         })

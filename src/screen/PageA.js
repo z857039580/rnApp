@@ -19,7 +19,7 @@ export default class PageA extends React.Component {
                 <Text>PageA页面</Text>
 
                 <Button
-                    title="Go to PageC"
+                    title="Go to PageCCC"
                     onPress={() => navigate('PageC', {name: 'PageC name'})}
                 />
                 <Button
