@@ -12,7 +12,7 @@ class PageD extends React.Component {
         return (
             <View>
                 <Text>PageD页面</Text>
-                <Button title="Go to PageA" onPress={() => navigate('PageA', {name: 'PageA name'})} />
+                <Button title="跳转到PageA,登录连接XMPP" onPress={() => navigate('PageA', {name: 'PageA name'})} />
             </View>
         );
     }

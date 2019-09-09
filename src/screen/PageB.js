@@ -24,10 +24,4 @@ class PageB extends React.Component {
 }
 
 
-export default connect(
-    (state) => {
-        return {
-            count: state.counter.count
-        }
-    }
-)(PageB)
+export default connect()(PageB)

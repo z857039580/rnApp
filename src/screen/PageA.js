@@ -16,7 +16,6 @@ class PageA extends Component {
             <View>
                 <Text>status:{this.props.status}</Text>
                 <Text>isSuccess:{this.props.isSuccess}</Text>
-                <Text>-----{this.props.userName}---</Text>
 
 
                 <Button title={'登录'} onPress={appAction.connectXmpp}
@@ -29,10 +28,15 @@ class PageA extends Component {
                 />
 
 
-                <TextInput
-                    onChangeText={(text) => appAction.setUserName(text)}
-                    value={this.props.userName}
-                />
+
+                <View style={{ marginTop:50}}>
+                    <Text>{this.props.userName}</Text>
+                    <TextInput placeholder='请输入用户名，观测redux'
+                               onChangeText={(text) => appAction.setUserName(text)}
+                               value={this.props.userName}
+                    />
+                </View>
+
 
 
             </View>

@@ -1,6 +1,4 @@
 import {combineReducers} from 'redux'
-import loginIn from './loginReducer'
-import counter from './counterReducer'
 import AppReducer from './appReducer'
 
 export function createReducer(initialState, handlers) {
@@ -14,9 +12,8 @@ export function createReducer(initialState, handlers) {
 }
 
 const rootReducer = combineReducers({
-    loginIn:loginIn,
-    counter:counter,
-    AppReducer:AppReducer
+    AppReducer:AppReducer,
+    // AppReducerB:AppReducerB,
 })
 
 export default rootReducer;//导出，作为统一入口

@@ -3,7 +3,7 @@ import {createReducer} from './index'
 
 const initialState = {
     status:'点击登陆',
-    userName:'用户名'
+    userName:''
 }
 
 const actionHandler = {

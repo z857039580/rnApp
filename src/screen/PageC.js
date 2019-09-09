@@ -35,10 +35,4 @@ class PageC extends React.Component {
 }
 
 
-export default connect(
-    (state) => {
-        return {
-            state: state
-        }
-    }
-    )(PageC)
+export default connect()(PageC)
