@@ -7,6 +7,3 @@ AppRegistry.registerComponent(appName, () => App);
 
 
 
-
-
-
